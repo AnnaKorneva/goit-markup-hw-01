@@ -1,0 +1,141 @@
+:root {
+  --primary-text-color: #212121;
+  ---accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, serif;
+  color: var(--primary-text-color);
+  color: var(--primary-text-color);
+}
+.nav-link {
+  font-family: Raleway;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  line-height: 1.17;
+}
+.list {
+  list-style: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.link:hover,
+.link:focus,
+.buttons:hover,
+.button-main:focus,
+.button-main:hover {
+  background-color: var(---accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contacts-item a {
+  text-decoration: none;
+  color: #757575;
+  line-height: 1.17;
+}
+.hero {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+  background-color: #2f303a;
+  line-height: 1.36;
+}
+.features title {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--primary-text-color);
+  line-height: 1.17;
+}
+.features-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--primary-text-color);
+  line-height: 1.17;
+}
+.team-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  line-height: 1.17;
+}
+.team-name {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.17;
+  color: #757575;
+}
+.footer-logo {
+  font-weight: 700;
+  font-family: Raleway;
+  font-size: 26px;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 1.17;
+}
+.footer-adress {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.footer-info {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.sites-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+.sites-text {
+  font-size: 16px;
+
+  color: #757575;
+}
+span {
+  color: var(---accent-color);
+}
+.footer-main {
+  background-color: #2f303a;
+}
+.buttons {
+  line-height: 1.62;
+  color: var(--primary-text-color);
+}
+.sites-title {
+  color: var(--primary-text-color);
+  line-height: 2;
+  font-weight: 700;
+  font-size: 18px;
+}
+.sites-text {
+  color: #757575;
+  line-height: 1.87;
+  font-size: 16px;
+}
