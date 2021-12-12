@@ -14,6 +14,7 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
   line-height: 1.17;
+  font-size: 26px;
 }
 .list {
   list-style: none;
@@ -24,6 +25,7 @@ body {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .link:hover,
 .link:focus,
@@ -50,8 +52,9 @@ body {
   letter-spacing: 0.06em;
   font-weight: 700;
   line-height: 1.87;
+  font-family: Roboto;
 }
-.hero {
+.hero-title {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -60,16 +63,18 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
-.features title {
+.title {
   font-weight: 700;
   color: var(--primary-text-color);
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .features-text {
   color: #757575;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .work-title {
   font-weight: 700;
@@ -85,7 +90,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.team-name {
+.title-name {
   color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -105,6 +110,7 @@ body {
   color: #ffffff;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-family: Raleway;
 }
 .footer-adress {
   text-decoration: none;
